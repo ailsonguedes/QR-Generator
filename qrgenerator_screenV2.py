@@ -62,7 +62,7 @@ window.title('QR Generator')
 window.geometry('500x250')
 window.config(bg=color1)
 window.resizable(width=False, height=False)
-window.iconbitmap("icons8-código-qr-26.ico")
+window.iconbitmap("icons_main.ico")
 
 right_menu(window)
 window.bind("<Button - 3><ButtonRelease-3>", pop_menu)
