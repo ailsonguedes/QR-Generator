@@ -18,7 +18,7 @@ Esse código foi desenvolvido para facilitar o processo de geração de Códigos
 -   Ao clickar em salvar, o filedialog será automáticamente fechado, o usuário deve esperar um sinal verde (✅) na tela da aplicação.
 -   Após a apresentação do sinal verde na tela, o usuário poderá verificar o sua imagem QR que estará disponível no diretório indicado e fechar o aplicativo.
 
-# Como executar o código
+## 💻 Como executar o código
 
 - Instalar Python
 - Para executar esse código, você precisa ter as seguintes bibliotecas instaladas: qrcode, gTTS e tkinter. Elas podem ser instaladas usando o gerenciador de pacotes Python pip com os seguinte comandos: (pip install) 
