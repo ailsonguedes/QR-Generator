@@ -1,6 +1,6 @@
 # QR Generator
 
-Esse código foi desenvolvido para facilitar o processo de geração de Códigos QR, por pessoas que tenham dificuldades na realização desse processo. 
+Esse código foi desenvolvido para facilitar o processo de geração de códigos QR, por pessoas que tenham dificuldades na realização desse processo. 
 
 
 ## 🔧 Ferramentas Utilizadas
