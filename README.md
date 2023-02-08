@@ -10,7 +10,7 @@ Esse código foi desenvolvido para facilitar o processo de geração de códigos
 
 ## ⚙️ Como Funciona
 
--   Inicialização da aplicação demonstra a tela com uma label(QR Generator), logo abaixo o menu de entrada de informação e um botão(QR).
+-   Inicialização da aplicação demonstra a tela com uma label (QR Generator), logo abaixo o menu de entrada de informação e um botão(QR).
 -   O Usuário deve colar um link no menu de entrada de informação.
 -   Após concluída a entrada de informação, o botão "QR" deve ser pressionado.
 -   Um menu filedialog será exibido na tela do usuário indicando que este, deve escolher o diretório no qual deseja gerar a imagem.
