@@ -20,6 +20,6 @@ Esse código foi desenvolvido para facilitar o processo de geração de códigos
 
 ## 💻 Como executar o código
 
-- Instalar Python
-- Para executar esse código, você precisa ter as seguintes bibliotecas instaladas: qrcode, gTTS e tkinter. Elas podem ser instaladas usando o gerenciador de pacotes Python pip com os seguinte comandos: (pip install) 
+- Instalar o Python
+- Para executar esse código, você precisa ter as seguintes bibliotecas instaladas: qrcode e tkinter. Elas podem ser instaladas usando o gerenciador de pacotes Python pip com os seguinte comandos: (pip install) 
 - Para executar o arquivo (python **qrgenerator_screenV2.py**)
