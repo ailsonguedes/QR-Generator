@@ -60,6 +60,7 @@ color2 = '#c0bcb5' #Silver
 color3 = '#af5d63' #Redwood
 color4 = '#ADFF2F' #greenyellow
 
+# create the window of this projetc
 window = Tk()
 window.title('QR Generator')
 window.geometry('500x250')
@@ -67,18 +68,23 @@ window.config(bg=color1)
 window.resizable(width=False, height=False)
 window.iconbitmap("icons_main.ico")
 
+# mapping the mouse right button
 right_menu(window)
 window.bind("<Button - 3><ButtonRelease-3>", pop_menu)
 
+# label title
 label_title = Label(window, width=20, text= "QR Generator", font='Times 25',  fg=color2, bg=color1)
 label_title.place(x=75, y=40)
 
+# label to make the green check mark after generate the qr
 label_verify = Label(window, width=8, text= "", fg=color4, bg=color1)
 label_verify.place(x=230, y=130)
 
+# butto to request the function of generate the qr code
 button1 = Button(window, command=qr_gen, width=8, height=1, text= "QR", relief='raised', font='Times 25',  fg=color2, bg=color3)
 button1.place(x=180, y=160)
 
+# entry made to receive your link to change it into QR Code
 entry_link = Entry(window, width=35, relief='sunken', font='Times 15')
 entry_link.place(x=80, y=100)
 
