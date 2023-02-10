@@ -31,7 +31,8 @@ def qr_gen():
     entry_link.delete(0,END)
 
     label_verify.config(text="✅")
-
+    
+# this func create the mouse right button menu
 def right_menu(window):
     global menu
     menu = Menu(window, tearoff=0, bg=color2, fg="black")
@@ -42,6 +43,7 @@ def right_menu(window):
     menu.add_separator
     menu.add_command(label="Select All", command=None, accelerator= "Ctrl+A")
 
+# this func create the mouse right button commands 
 def pop_menu(event):
     widget = event.widget
 
@@ -52,6 +54,7 @@ def pop_menu(event):
 
     menu.tk.call('tk_popup', menu, event.x_root, event.y_root)
 
+# colors used in the visual of this project
 color1 = '#4a6c6f' #Myrtle Green
 color2 = '#c0bcb5' #Silver
 color3 = '#af5d63' #Redwood
